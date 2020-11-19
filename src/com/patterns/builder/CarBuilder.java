@@ -1,12 +1,12 @@
 package com.patterns.builder;
 
 public interface CarBuilder {
-    public void buildBodyStyle();
-    public void buildPower();
-    public void buildEngine();
-    public void buildBreaks();
-    public void buildSeats();
-    public void buildWindows();
-    public void buildFuelType();
-    public Car getCar();
+     void buildBodyStyle();
+     void buildPower();
+     void buildEngine();
+     void buildBreaks();
+     void buildSeats();
+     void buildWindows();
+     void buildFuelType();
+     Car getCar();
 }
